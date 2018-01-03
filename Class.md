@@ -3,3 +3,11 @@
 ## Java Class and sub-class inherit super-class
 ***
 ### :one: Class form
+```java
+public class ClassName {
+  Attributes;
+  ...
+  Methods;
+  ...
+}
+```
