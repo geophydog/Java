@@ -40,3 +40,27 @@ class SubClass extends SuperClass {
 ```
 sub-class will inherit all attributes and methods of super-class.
 ```
+#### Example,
+```java
+// Super-class
+public class Father {
+  String color;
+  int age;
+  double height;
+  double weight;
+  
+  public void speak() {
+    System.out.println("Father speaks English very well!");
+  }
+}
+
+// Inherit
+class Child extends Father {
+  String name;
+  String grade;
+  public void walk() {
+    System.out.println("Aha, this little child can walk!");
+  }
+}
+```
+
