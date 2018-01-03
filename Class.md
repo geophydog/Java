@@ -95,3 +95,28 @@ class Child extends Father {
 ***
 
 ###  :four:Sub-class inherit super-class with parameters
+```java
+public class Animal {
+  String name;
+  String color;
+  int id;
+  
+  public Animal(String anname, String ancolor, int anid) {
+    this.name = anname;
+    this.color = ancolor;
+    this.id = anid;
+  }
+  
+  public void eat() {
+    System.out.println("Animal will eat something!");
+  }
+}
+
+class Monkey extends Animal {
+  int age;
+  public Monkey(String anname, String ancolor, int anid) {
+    super(anname, ancolor, anid);
+    this.age = 10;
+  }
+}
+```
