@@ -28,7 +28,35 @@ public class Animal {
 
 ***
 
-###  :two: Class inherit form
+### :two: Class with parameters
+```java
+public class ClassName {
+  public ClassName(type1 para1, type2 para2, type3 para3,...) {
+    ...
+  }
+}
+```
+#### Example,
+```java
+public class Animal {
+  String name;
+  String color;
+  int id;
+  public Animal(String anname, String ancolor, int anid) {
+    this.name = anname;
+    this.color = ancolor;
+    this.id = anid;
+  }
+  
+  public void breathe() {
+    System.out.println("Animal can breathe!");
+  }
+}
+```
+
+***
+
+###  :three: Class inherit form
 ```java
 class SubClass extends SuperClass {
   Attribute;
@@ -64,3 +92,6 @@ class Child extends Father {
 }
 ```
 
+***
+
+###  :four:Sub-class inherit super-class with parameters
