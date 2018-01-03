@@ -14,14 +14,29 @@ public class ClassName {
 #### Example,
 ```java
 public class Animal {
-  String color;
-  String name;
-  public void eat() {
+  String color; // Attribute 1
+  String name; // Attribute 2
+  public void eat() { // Method 1
     System.out.println("Animal will eat something!");
   }
   
-  public void breathe() {
+  public void breathe() { // Method 2
     System.out.println("Animal can breathe!");
   }
 }
+```
+
+***
+
+###  :two: Class inherit form
+```java
+class SubClass extends SuperClass {
+  Attribute;
+  ...
+  Method;
+  ...
+}
+```
+```
+sub-class will inherit all attributes and methods of super-class.
 ```
