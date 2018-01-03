@@ -11,3 +11,17 @@ public class ClassName {
   ...
 }
 ```
+#### Example,
+```java
+public class Animal {
+  String color;
+  String name;
+  public void eat() {
+    System.out.println("Animal will eat something!");
+  }
+  
+  public void breathe() {
+    System.out.println("Animal can breathe!");
+  }
+}
+```
