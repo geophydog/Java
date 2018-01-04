@@ -120,3 +120,30 @@ class Monkey extends Animal {
   }
 }
 ```
+
+***
+
+### :five: Method of sub-class overriding that of super-class
+```java
+// super-class
+public class Father {
+  public void run() {
+    System.out.println("Just try to run it!");
+  }
+}
+
+// sub-class
+class Child extends Father {
+  public void run() {
+    System.out.println("Run it again!");
+  }
+}
+``
+
+- output
+```
+Run it again!
+```
+```
+"run" method in class "Child" overrides that in class "Father".
+```
