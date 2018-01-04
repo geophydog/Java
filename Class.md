@@ -31,7 +31,7 @@ public class Animal {
 ### :two: Class with parameters
 ```java
 public class ClassName {
-  public ClassName(type1 para1, type2 para2, type3 para3,...) {
+  public ClassName(type1 para1, type2 para2, type3 para3,...) { // formal parameters
     ...
   }
 }
@@ -43,9 +43,9 @@ public class Animal {
   String color;
   int id;
   public Animal(String anname, String ancolor, int anid) {
-    this.name = anname;
-    this.color = ancolor;
-    this.id = anid;
+    this.name = anname; // instance parameter1 assignment
+    this.color = ancolor; // // instance parameter2 assignment
+    this.id = anid; // // instance parameter3 assignment
   }
   
   public void breathe() {
@@ -115,7 +115,7 @@ public class Animal {
 class Monkey extends Animal {
   int age;
   public Monkey(String anname, String ancolor, int anid) {
-    super(anname, ancolor, anid);
+    super(anname, ancolor, anid); // super function should exist in the first line.
     this.age = 10;
   }
 }
