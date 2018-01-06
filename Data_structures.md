@@ -76,7 +76,7 @@
 | 25|String toString( )  | 返回此位 set 的字符串表示形式。|
 | 26|void xor(BitSet bitSet) | 对此位 set 和位 set 参数执行逻辑异或操作。|
 
-    _Example_
+### _Example_
 ```java
 import java.util.BitSet;
 
@@ -111,4 +111,21 @@ public class TestBitSet {
         System.out.println(bs1);
     }
 }
+```
+### _output_
+```
+Initial bs1 and bs2:
+{0, 2, 4, 6, 8, 10, 12, 14}
+{1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14}
+
+Portion of the insection of bs1 and bs2:
+{2, 4, 6, 8, 12, 14}
+{1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14}
+
+Clear the intersection of bs1 and bs2 in bs2:
+{2, 4, 6, 8, 12, 14}
+{1, 3, 7, 9, 11, 13}
+
+"true" in bs1:
+{2, 4, 6, 8, 12, 14}
 ```
