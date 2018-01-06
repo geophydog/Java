@@ -76,4 +76,39 @@
 | 25|String toString( )  | 返回此位 set 的字符串表示形式。|
 | 26|void xor(BitSet bitSet) | 对此位 set 和位 set 参数执行逻辑异或操作。|
 
-***
+    _Example_
+```java
+import java.util.BitSet;
+
+public class TestBitSet {
+    public static void main(String[] args) {
+        BitSet bs1 = new BitSet(16);
+        BitSet bs2 = new BitSet(16);
+
+        for ( int i = 0; i < 16; i ++ ) {
+           if ( i % 2 == 0 ) bs1.set(i);
+           if ( i % 5 != 0 ) bs2.set(i);
+        }
+
+        System.out.println("Initial bs1 and bs2:");
+        System.out.println(bs1);
+        System.out.println(bs2);
+
+        System.out.println("\nPortion of the insection of bs1 and bs2:");
+        bs1.and(bs2);
+        System.out.println(bs1);
+        System.out.println(bs2);
+
+        //System.out.println(bs1.toString());
+
+        System.out.println("\nClear the intersection of bs1 and bs2 in bs2:");
+        bs2.andNot(bs1);
+        System.out.println(bs1);
+        System.out.println(bs2);
+
+        System.out.println("\n\"true\" in bs1:");
+        bs1.cardinality();
+        System.out.println(bs1);
+    }
+}
+```
