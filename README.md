@@ -11,3 +11,7 @@
 ***
 
 ### :two:[JAVA GUI](https://github.com/geophydog/Java/blob/master/JAVA-GUI.md)
+
+***
+
+### :three: [JAVA DATA STRUCTURES](https://github.com/geophydog/Java/blob/master/Data_structures.md)
