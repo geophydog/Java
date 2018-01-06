@@ -17,6 +17,7 @@
     - to test whether containing more lements.
 - nextElement()
     - to get a next element
+    
     _Example_
     ```java
     import java.util.Enumeration;
