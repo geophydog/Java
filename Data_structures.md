@@ -49,12 +49,11 @@
 ### :two: BitSet
 | INDEX | METHOD | EXPLANATIONS |
 | ----- | ------ | ------------ |
-|  1	| void and(BitSet set)     | 对此目标位 set 和参数位 set 执行逻辑与操作。|
-|  2	| void andNot(BitSet set)  | 清除此 BitSet 中所有的位，其相应的位在指定的 BitSet 中已设置。|
-|  3	| int cardinality( )       | 返回此 BitSet 中设置为 true 的位数。|
-|  4	| void clear( )            | 将此 BitSet 中的所有位设置为 false。|
-5	void clear(int index)
-将索引指定处的位设置为 false。
+| 1	| void and(BitSet set)     | 对此目标位 set 和参数位 set 执行逻辑与操作。|
+| 2	| void andNot(BitSet set)  | 清除此 BitSet 中所有的位，其相应的位在指定的 BitSet 中已设置。|
+| 3	| int cardinality( )       | 返回此 BitSet 中设置为 true 的位数。|
+| 4	| void clear( )            | 将此 BitSet 中的所有位设置为 false。|
+| 5 | void clear(int index)    | 将索引指定处的位设置为 false。      |
 6	void clear(int startIndex, int endIndex)
 将指定的 fromIndex（包括）到指定的 toIndex（不包括）范围内的位设置为 false。
 7	Object clone( )
