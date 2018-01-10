@@ -15,3 +15,7 @@
 ***
 
 ### :three: [JAVA DATA STRUCTURES](https://github.com/geophydog/Java/blob/master/Data_structures.md)
+
+***
+
+### :four: [ArrayList class](https://github.com/geophydog/Java/blob/master/ArrayList.md)
