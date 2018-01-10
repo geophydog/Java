@@ -2,7 +2,7 @@
 
 ***
 
-![JAVA-icon](https://github.com/geophydog/Java/blob/master/Images/java-icon2.jpg)
+![JAVA-icon](https://github.com/geophydog/Java/blob/master/Images/JAVA.jpg)
 
 ***
 
