@@ -2,20 +2,21 @@
 
 ***
 
+### :one: Decription of ArrayList.
 ```
 ArrayList is a class.
 ```
 
 ***
 
-### Declaration of ArrayList class instance.
+### :two: Declaration of ArrayList class instance.
 ```java
 ArrayList<Type> arr = new ArrayList<Type>();
 ```
 
 ***
 
-### method of ArrayList class
+### :three: method of ArrayList class
 
 - void add(i): Add a element to arr.
 ```java
@@ -39,7 +40,7 @@ int n = arr.size();
 
 ***
 
-### Example
+### :four: Example
 ```java
 import  java.util.*;
 public class TestArrayList {
