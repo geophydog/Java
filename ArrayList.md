@@ -45,8 +45,13 @@ arr.set(0, "XXXXX");
 
 - boolean contain(element): whether "arr" contains element.
 ```java
-boolean bl = arr.contain("XXXXX")
+boolean bl = arr.contain("XXXXX");
 ````
+
+- boolean isEmpty(): Wether "str" is empty.
+```java
+boolean empty = arr.isEmpty();
+```
 
 ***
 
@@ -83,6 +88,9 @@ public class TestArrayList {
        
        boolean bl = str.contains("XXXXX");
        System.out.println("\"str\" contsains string \"XXXXX\": " + bl);
+       
+       boolean empty = str.isEmpty();
+       System.out.println("\"str\" is empty: " + empty);
     }
 }
 ```
@@ -99,4 +107,5 @@ XXXXX
 World
 There!
 "str" contsains string "XXXXX": true
+"str" is empty: false
 ```
