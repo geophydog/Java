@@ -38,6 +38,11 @@ arr.remove(element);
 int n = arr.size();
 ```
 
+- void set(index, element): Set a new element at index.
+```java
+arr.set(0, "XXXXX");
+```
+
 ***
 
 ### :four: Example
@@ -63,6 +68,26 @@ public class TestArrayList {
        for ( int i = 0; i < str.size(); i ++ ) {
             System.out.println(str.get(i));
        }
+       
+       System.out.println("Before replacing:");
+       str.set(0, "XXXXX");
+       System.out.println("After replacing:");
+       for ( int i = 0; i < str.size(); i ++ ) {
+           System.out.println(str.get(i));
+       }
     }
 }
+```
+_Output_
+```
+Hi!
+After removing!
+Hello
+World
+There!
+Before replacing:
+After replacing:
+XXXXX
+World
+There!
 ```
