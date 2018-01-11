@@ -43,6 +43,11 @@ int n = arr.size();
 arr.set(0, "XXXXX");
 ```
 
+- boolean contain(element): whether "arr" contains element.
+```java
+boolean bl = arr.contain("XXXXX")
+````
+
 ***
 
 ### :four: Example
@@ -75,6 +80,9 @@ public class TestArrayList {
        for ( int i = 0; i < str.size(); i ++ ) {
            System.out.println(str.get(i));
        }
+       
+       boolean bl = str.contains("XXXXX");
+       System.out.println("\"str\" contsains string \"XXXXX\": " + bl);
     }
 }
 ```
@@ -90,4 +98,5 @@ After replacing:
 XXXXX
 World
 There!
+"str" contsains string "XXXXX": true
 ```
