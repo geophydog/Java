@@ -18,7 +18,7 @@ ArrayList<Type> arr = new ArrayList<Type>();
 
 ### :three: method of ArrayList class
 
-:a: void add(i): Add a element to arr.
+:f: void add(i): Add a element to arr.
 ```java
 arr.add(Type element);
 ```
