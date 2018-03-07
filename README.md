@@ -21,4 +21,4 @@
 ### :four: [ArrayList class](https://github.com/geophydog/Java/blob/master/ArrayList.md)
 
 ***
- ### :five: [JAVA 修饰符](https://github.com/geophydog/Java/edit/master/Modifier.md)
+ ### :five: [JAVA 修饰符](https://github.com/geophydog/Java/blob/master/Modifier.md)
