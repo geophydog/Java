@@ -1,4 +1,4 @@
-:hotel: [https://github.com/geophydog/Java/blob/master/README.md]
+:hotel: [Return to Home JAVA Page] (https://github.com/geophydog/Java/blob/master/README.md)
 
 ***
 
@@ -6,8 +6,9 @@
 ```
 javac -d class_path java_src_path
 ```
-==-d 为编译好的class文件存放之处 ==
-
+```
+-d 为编译好的class文件存放之处
+```
 ***
 
 ### :two: run JAVA classes in Windows CMD
