@@ -1,4 +1,4 @@
-:hotel: [Return to Home JAVA Page] (https://github.com/geophydog/Java/blob/master/README.md)
+:hotel: [Return to Home JAVA Page](https://github.com/geophydog/Java/blob/master/README.md)
 
 ***
 
