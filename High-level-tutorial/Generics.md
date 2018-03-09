@@ -49,7 +49,7 @@ e
 ```
 
 __实例2__
-```
+```java
 public class GenericsTest2 {
     public static < T extends Comparable<T>> T maximum( T x, T y, T z ) {
         T max = x;
