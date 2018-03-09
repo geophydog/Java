@@ -18,13 +18,13 @@ __1. 获取类名：__
 2.1 在static method中使用方法:Thread.currentThread().getStackTrace()[1].getClassName();
  ```
  
-__ 2. 获取方法名：__
+__2. 获取方法名：__
 ```
 在static与非static方法中都用此方法获取方法名
 Thread.currentThread().getStackTrace()[1].getMethodName();
 ```
 
-__ 3. 获取代码行号：__
+__3. 获取代码行号：__
 ```
 Thread.currentThread().getStackTrace()[1].getLineNumber();
 ```
