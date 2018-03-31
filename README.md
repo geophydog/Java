@@ -31,3 +31,7 @@
 ***
 
 ### :seven: [To get ClassName or MethodName](https://github.com/geophydog/Java/blob/master/GetClassName_MethodName.md)
+
+***
+
+### :eight: [Constructor and Initialization of Class](https://github.com/geophydog/Java/blob/master/Constructor_Initialization.md)
