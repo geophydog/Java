@@ -35,3 +35,7 @@
 ***
 
 ### :eight: [Constructor and Initialization of Class](https://github.com/geophydog/Java/blob/master/Constructor_Initialization.md)
+
+***
+
+### :nine: [Exception in thread "main" java.lang.NoSuchMethodError](https://github.com/geophydog/Java/blob/master/NoSuchMethodNameInMain.md)
