@@ -39,3 +39,7 @@
 ***
 
 ### :nine: [Exception in thread "main" java.lang.NoSuchMethodError](https://github.com/geophydog/Java/blob/master/NoSuchMethodNameInMain.md)
+
+***
+
+### :one::zero: [IntelliJIDEA-reference-public-class-in-same-package](https://github.com/geophydog/Java/blob/master/IntelliJIDEA-Public-Class-Reference-in-Same-Package.md)
